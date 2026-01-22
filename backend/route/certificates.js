@@ -39,7 +39,6 @@ router.get(
 
 router.get(
     "/:id",
-    jwtCheck,
     CertificatesController.getCertificateContent
 );
 

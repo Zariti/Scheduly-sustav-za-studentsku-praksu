@@ -79,7 +79,7 @@ export default function Sidebar({ role, onLogout }) {
             </li>
           </>
         )}
-        {role === "mentor" && (
+        {role === "mentorr" && (
           <li>
             <FaBuilding style={{ marginRight: 8 }} /> Mentor Dashboard
           </li>

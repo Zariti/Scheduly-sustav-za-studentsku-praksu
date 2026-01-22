@@ -139,7 +139,7 @@ export default function WorkDiary() {
     setFormData({
       date: entry.is_created?.split('T')[0] || '',
       hours: entry.hours || '',
-      taskDescription: entry.description || '',
+      taskDescription: entry.taskDescription || '',
       application_id: entry.application_id || ''
     });
     setShowForm(true);

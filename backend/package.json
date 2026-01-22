@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:migration": "node ./DB_config/runMigrationAndSeed.js",
     "start:dev": "npm install && node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start:full": "npm run start:migration && node server.js"
   },
   "type": "module",
   "keywords": [],

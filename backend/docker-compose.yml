@@ -3,7 +3,7 @@ services:
     build: .   # backend se pokreće preko Dockerfile
               # unutar trenutnog direktorija
     ports:
-      - '5001:5000'  # PC komunicira s kontejnerom
+      - '5000:5000'  # PC komunicira s kontejnerom
     environment:
       - NODE_ENV=staging      # KRITIČNO: Kaže Knexu da koristi PostgreSQL
       - DB_HOST=db            # KRITIČNO: Adresa baze unutar Docker mreže
